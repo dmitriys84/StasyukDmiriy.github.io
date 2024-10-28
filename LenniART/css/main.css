@@ -83,7 +83,7 @@ background-image: url(/img/fon.jpg);
 }
 .txUp, .txDw {
   width: 100%;
-  font-family: Lora;
+  font-family: "Lora";
   font-size: 45px;
   font-weight: 400;
 }
@@ -92,7 +92,7 @@ background-image: url(/img/fon.jpg);
   text-align: center;
 }
 .txIwant {
-  font-family: Lora;
+  font-family: "Lora";
   font-size: 22px;
   font-weight: 400;
   margin-top: 100px;
@@ -100,7 +100,7 @@ background-image: url(/img/fon.jpg);
 }
 .buttonRed, .buttonGray {
   margin-top: 46px;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 600;
 }
@@ -118,10 +118,48 @@ background-image: url(/img/fon.jpg);
   font-size: 16px;
   font-weight: 600;
   margin-left: 106px;
-
-
 }
 
+.aboutUs {
+  display: flex;
+  width: 624px;
+  height: 62px;
+  background-color: #1F1E1E;
+  color: #FFFFFF;
+  font-family: Lora;
+  font-size: 36px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: 648px;
+}
+.mainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1414px;
+}
+.mainerTxup {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  max-width: 1414px;
+  width: 1334px;
+  height: 185px;
+  z-index: inherit;
+}
+.txprm {
+  font-family:"Open Sans", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  text-align: left;
+}
+.txsec {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: right;
+}
 
 .footer {
   flex: 0 0 auto;
