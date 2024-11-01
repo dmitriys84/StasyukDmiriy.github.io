@@ -1,5 +1,6 @@
 html, body {
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -10,7 +11,7 @@ display: flex;
 flex-direction: column;
 min-height: 100vh;
 padding-top: 147px;
-background-image: url(/img/fon.jpg);
+background-color: #DEDEDE50;
 }
 
 .header {
@@ -43,6 +44,11 @@ background-image: url(/img/fon.jpg);
   padding-right: 40px;
 }
 
+.nav__link:hover {
+  color: #BC3324;
+  transition: color 0.2s ease-in;
+}
+
 .join {
  display: flex;
  box-sizing: border-box;
@@ -61,12 +67,18 @@ background-image: url(/img/fon.jpg);
   color: #1F1E1E;
 }
 
+.nav__join:hover {
+  color: #BC3324;
+  transition: color 0.2s ease-in;
+}
+
 .main {
   flex: 1 0 auto;
 }
 .main__logo {
   width: 100%;
   margin-top: 375px;
+  margin: auto;
   text-align: center;
   
 }
@@ -83,7 +95,7 @@ background-image: url(/img/fon.jpg);
 }
 .txUp, .txDw {
   width: 100%;
-  font-family: "Lora";
+  font-family: "Lora", sans-serif;
   font-size: 45px;
   font-weight: 400;
 }
@@ -114,25 +126,27 @@ background-image: url(/img/fon.jpg);
   width: 245.88px;
   height: 52px;
   color: #1F1E1E;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 600;
   margin-left: 106px;
 }
 
 .aboutUs {
-  display: flex;
+  box-sizing: border-box;
+  display: block;
   width: 624px;
   height: 62px;
   background-color: #1F1E1E;
   color: #FFFFFF;
-  font-family: Lora;
+  font-family: "Lora", serif;
   font-size: 36px;
   font-weight: 500;
+  text-align: center;
   align-items: center;
-  justify-content: center;
   margin-top: 200px;
-  margin-left: 648px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .mainer {
   width: 100%;
@@ -147,7 +161,8 @@ background-image: url(/img/fon.jpg);
   width: 1334px;
   height: 185px;
   margin-top: 100px;
-  margin-left: 293px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .txprm {
@@ -174,7 +189,8 @@ background-image: url(/img/fon.jpg);
   width: auto;
   height: auto;
   margin-top: 100px;
-  margin-left: 293px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .image__1 {
   float: left;
@@ -182,7 +198,7 @@ background-image: url(/img/fon.jpg);
 .image__2 {
   float: right;
   margin-top: 288px;
-  margin-right: 293px;
+  margin-right: auto;
   margin-left: 60px;
  
 }
