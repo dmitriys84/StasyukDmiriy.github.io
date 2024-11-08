@@ -3,6 +3,7 @@ html, body {
   height: 100vh;
   margin: 0;
   padding: 0;
+  background-image: url(/img/фон\ 1.png)
 }
 
 .body {
@@ -11,7 +12,7 @@ display: flex;
 flex-direction: column;
 min-height: 100vh;
 padding-top: 147px;
-background-color: #DEDEDE50;
+
 }
 
 .header {
@@ -58,6 +59,10 @@ background-color: #DEDEDE50;
  border: 1px solid #1F1E1E;
  padding: 15px 30px;
 }
+.join:hover {
+  background-color: black;
+  color: #BC3324;
+}
 
 .nav__join {
   font-family: "Open Sans", sans-serif;
@@ -68,6 +73,7 @@ background-color: #DEDEDE50;
 }
 
 .nav__join:hover {
+  background-color: black;
   color: #BC3324;
   transition: color 0.2s ease-in;
 }
@@ -134,7 +140,7 @@ background-color: #DEDEDE50;
 
 .aboutUs {
   box-sizing: border-box;
-  display: block;
+  display: flex;
   width: 624px;
   height: 62px;
   background-color: #1F1E1E;
@@ -147,6 +153,7 @@ background-color: #DEDEDE50;
   margin-top: 200px;
   margin-left: auto;
   margin-right: auto;
+  justify-content: center;
 }
 .mainer {
   width: 100%;
@@ -185,14 +192,16 @@ background-color: #DEDEDE50;
 
 .image {
   box-sizing: border-box;
-  display: flex;
+  display: block;
   width: auto;
   height: auto;
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
+ 
 }
 .image__1 {
+  height: 577px;
   float: left;
 }
 .image__2 {
@@ -200,9 +209,71 @@ background-color: #DEDEDE50;
   margin-top: 288px;
   margin-right: auto;
   margin-left: 60px;
+}
+
+.textdw {
+  box-sizing: border-box;
+  display: block;
+  width: 1334px;
+  height: auto;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
  
 }
 
+.textImagedw {
+  box-sizing: border-box;
+  display: block;
+  width: 868px;
+  height: 120px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  float: left;
+  text-align: left;
+
+
+}
+
+.textImagedwrt {
+  box-sizing: border-box;
+  display: block;
+  width: 967px;
+  height: auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  float: right;
+  text-align: left;
+  position: relative;
+  padding-left: 100px;
+  padding-bottom: 110px;
+}
+
+.imagedwfoot {
+  box-sizing: border-box;
+  display: flex;
+  width: 1334px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.textImagedown {
+  box-sizing: border-box;
+  display: flex;
+  width: auto;
+  height: auto;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  padding-left: 60px;
+  padding-bottom: 0px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+
+}
 .footer {
   flex: 0 0 auto;
 }
