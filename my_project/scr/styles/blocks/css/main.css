@@ -3,7 +3,7 @@ html, body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-image: url(/img/фон\ 1.png)
+  background-image: url(/assets/images/header/фон\ 1.png)
 }
 
 .body {
@@ -290,7 +290,7 @@ padding-top: 147px;
   width: 100%;
   max-width: 624px;
   min-height: 62px;
-  margin: 0 auto 190px;
+  margin: 0 auto 150px;
   padding: 8px 45px;
   background-color: #1F1E1E;
   color: #ffffff;
