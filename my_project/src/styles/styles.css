@@ -3,17 +3,28 @@ html, body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-image: url(/assets/images/header/фон\ 1.png)
 }
 
-.body {
-box-sizing: border-box;
-display: flex;
-flex-direction: column;
-min-height: 100vh;
-padding-top: 147px;
-
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #dedede;
+  background-image: url(../assets/images/header/фон\ 1.png);
+  background-position: 0 0, 0 0;
+  background-size: auto, 100% auto;
+  background-repeat: repeat, repeat-y;
+  color: #1F1E1E;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.375;
+  overflow-x: hidden;
+  padding-top: 147px;
 }
+
 
 .header {
   position: fixed;
@@ -161,14 +172,11 @@ padding-top: 147px;
   justify-content: center;
 }
 .mainer {
-  width: 100%;
   display: flex;
-  flex-direction: column;
+flex-direction: column;
+  
 }
 .mainerTxup {
-  box-sizing: border-box;
-  display: inline-block;
-  flex-direction: column;
   text-align: center;
   width: 1334px;
   height: 185px;
@@ -196,8 +204,7 @@ padding-top: 147px;
 }
 
 .image {
-  box-sizing: border-box;
-  display: block;
+  grid-area: auto;
   width: auto;
   height: auto;
   margin-top: 100px;
@@ -217,8 +224,7 @@ padding-top: 147px;
 }
 
 .textdw {
-  box-sizing: border-box;
-  display: block;
+  grid-area: auto;
   width: 1334px;
   height: auto;
   justify-content: center;
@@ -228,8 +234,7 @@ padding-top: 147px;
 }
 
 .textImagedw {
-  box-sizing: border-box;
-  display: block;
+  grid-area: auto;
   width: 868px;
   height: 120px;
   font-family: "Open Sans", sans-serif;
