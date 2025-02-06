@@ -1,28 +1,134 @@
-html, 
-body {
+html, body {
     width: 100%;
     margin: 0;
     padding: 0;
 }
 
 .body {
-    background-image: url(//StasyukDmiriy.github.io/pic/фон.png);
+    background-image: url(/pic/noise.png);
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    padding-top: 147px;
+    color: #1F1E1E;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.375;
 }
 
-.page-header {
-    background-color: #DEDEDE50;
-    backdrop-filter: blur(1px);
+.page__header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 147px;
+    display: flex;
+    align-items: center;
+    background-color: #dedede50;
+    backdrop-filter: blur(20px);
+    z-index: 100;
 }
+
+.page-header__container {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding-left: 293px;
+    padding-right: 293px;
+}
+
+.logo {
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    width: 202px;
+    height: 147px;
+}
+
+.logo__black {
+    position: absolute;
+    width: 147px;
+    height: 147px;
+    background-color: black;
+}
+
+.logo-black__text {
+    text-align: center;
+    padding-top: 50px;
+    background-color:rgba(255, 255, 255, 0,5);
+
+}
+
+.logo__red {
+    position: absolute;
+    width: 121px;
+    height: 42px;
+    background-color: #BC3324;
+    left: 81px;
+    top: 92px;
+    bottom: 13px;
+}
+
+.logo-red__text {
+    text-align: center;
+    padding-top: 10.64px;
+    background-color: rgba(255, 255, 255, 0,5);
+}
+
+.page-header_nav {
+    display: flex;
+    align-items: baseline;
+    margin: 0 auto;
+}
+
+.page-header_nav__link {
+    margin: 0 25px;
+    color: #1f1e1e;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    transform: color 0.2s;
+}
+
+.page-header_nav__link:hover {
+    color: #bc3324;
+}
+
+.btn {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 15px 40px;
+    border: 1px solid #1F1E1E;
+    background-color: transparent;
+    outline: none;
+    color: #1F1E1E;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: #1F1E1E;
+    color: #ffffff;
+  }
+
+  .page-header__right-block {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 202px;
+  }
 
 .main {
     flex: 1 0 auto;
