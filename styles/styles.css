@@ -10,7 +10,6 @@ html, body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    min-width: 100vw;
     color: #1F1E1E;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
@@ -55,6 +54,7 @@ html, body {
     width: 147px;
     height: 147px;
     background-color: black;
+    border-radius: 7px;
 }
 
 .logo-black__text {
@@ -72,6 +72,7 @@ html, body {
     left: 81px;
     top: 92px;
     bottom: 13px;
+    border-radius: 7px;
 }
 
 .logo-red__text {
@@ -136,7 +137,107 @@ html, body {
 
 .main {
     flex: 1 0 auto;
+    padding-top: 247.5px;
 }
+
+.page__main {
+    display: flex;
+    flex-direction: column;
+}
+
+.centr-up__text {
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 45px;
+    padding-bottom: 70.5px;
+}
+.centr-dw__text {
+    margin: 0;
+    text-align: center;
+    align-content: center;
+    text-transform: uppercase;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 45px;
+    padding-top: 70px;
+    padding-bottom: 70.5px;
+}
+
+.iwant__text {
+    margin: 0;
+    text-align: center;
+    align-content: center;
+    text-transform: uppercase;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.button__centr {
+    margin-top: 46px;
+    text-align: center;
+    align-content: space-between;
+}   
+
+.btn__red {
+    background-color: #BC3324;
+    border: #BC3324;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    height: 52px;
+    width: 272px;
+    border-radius: 7px;
+    transition-duration: 0.4s;
+}
+.btn__red:hover {
+    background-color: #ffffff; /* Green */
+    color: #BC3324;
+    border: 2px solid #BC3324;
+  }
+
+
+.btn__gray {
+    background-color: rgba(0, 0, 0, 0);
+    color: #1F1E1E;
+    margin-left: 106px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    height: 52px;
+    width: 272px;
+    border-radius: 7px;
+    transition-duration: 0.4s;
+}
+
+.btn__gray:hover {
+    background-color: #a5a5a5; /* Green */
+    color: #000000;
+    border: 2px solid #c0bfbf;
+  }
+  .knopka__black {
+    margin-top: 200px;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .aboutUs {
+    width: 642px;
+    height: 62px;
+    align-items: center;
+    background-color: #1F1E1E;
+    color: #ffffff;
+    font-family: "Lora", serif;
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+
+
 
 .page-footer {
     flex: 0 0 auto;
