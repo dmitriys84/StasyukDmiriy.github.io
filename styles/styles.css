@@ -237,6 +237,67 @@ html, body {
     text-transform: uppercase;
   }
 
+  .container {
+    height: 185px;
+    display: grid;
+    grid-template-columns: 473px 867px;
+    grid-template-rows: auto;
+    margin-top: 150px;
+    padding-left: 293px;
+    padding-right: 293px;
+  }
+  
+  .text1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    align-items: flex-start;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+  }
+
+   .text2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    align-items: flex-end;
+    text-align: left;
+    padding-top: 110px;
+    margin: 0;
+   }
+
+   .foto__1 {
+    margin-top: 150px;
+   }
+
+   .foto__2 {
+    margin-top: 460px;
+    margin-left: 450px;
+   }
+
+    .text3 {
+    margin-top: -150px;
+    width: 868px;
+    height: 120px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    align-items: flex-start;
+    text-align: left;
+    }
+    
+    .text4 {
+    margin: 0;
+    padding: 0;
+    width: 867px;
+    height: 75px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    align-items: flex;
+    text-align: left;
+    }
 
 
 .page-footer {
