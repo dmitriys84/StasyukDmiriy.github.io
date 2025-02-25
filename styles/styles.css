@@ -225,7 +225,7 @@ html, body {
     display: inline-block;
   }
 
-  .aboutUs {
+.aboutUs {
     width: 642px;
     height: 62px;
     align-items: center;
@@ -237,7 +237,7 @@ html, body {
     text-transform: uppercase;
   }
 
-  .container {
+.container {
     height: 185px;
     display: grid;
     grid-template-columns: 473px 867px;
@@ -247,7 +247,7 @@ html, body {
     padding-right: 293px;
   }
   
-  .text1 {
+.text1 {
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 44px;
@@ -257,7 +257,7 @@ html, body {
     margin: 0;
   }
 
-   .text2 {
+.text2 {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -267,16 +267,16 @@ html, body {
     margin: 0;
    }
 
-   .foto__1 {
+.foto__1 {
     margin-top: 150px;
    }
 
-   .foto__2 {
+.foto__2 {
     margin-top: 460px;
     margin-left: 450px;
    }
 
-    .text3 {
+.text3 {
     margin-top: -150px;
     width: 868px;
     height: 120px;
@@ -287,7 +287,7 @@ html, body {
     text-align: left;
     }
     
-    .text4 {
+.text4 {
     margin: 0;
     padding: 0;
     width: 867px;
@@ -298,6 +298,33 @@ html, body {
     align-items: flex;
     text-align: left;
     }
+
+.picred {
+    margin-top: 110px;
+    margin-left: -473px;
+    position: relative;
+    z-index: auto;
+}
+
+.picdw {
+    margin-top: 128px;
+    margin-left: 48px;
+    position: relative;
+    z-index: 1;
+    }
+
+.text5 {
+    margin-left: 1000px;
+    margin-top: -210px;
+    width: 344px;
+    height: 75px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    align-items: flex;
+    text-align: left;
+}
+.tex
 
 
 .page-footer {
